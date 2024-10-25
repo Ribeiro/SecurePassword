@@ -1,0 +1,36 @@
+# Arquivos binários e de build
+bin/
+obj/
+
+# Configurações do Visual Studio
+.vscode/
+.vs/
+*.user
+*.suo
+
+# Pacotes NuGet
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Logs e backups
+*.log
+*.bak
+
+# Configurações do Secret Manager do .NET
+secrets.json
+
+# Configurações de ambiente (appsettings de produção não deve ser versionado)
+appsettings.Production.json
+appsettings.Development.json
+
+# Diretório para logs locais e temporários
+Logs/
+*.pid
+
+# Outros arquivos temporários
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
